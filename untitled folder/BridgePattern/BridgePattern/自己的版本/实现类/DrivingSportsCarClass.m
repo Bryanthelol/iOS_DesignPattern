@@ -12,7 +12,7 @@
 
 // 重载
 - (void)drive:(NSUInteger)NumOfPerson {
-    NSLog(@"number person = %u", NumOfPerson);
+    NSLog(@"number person = %lu", (unsigned long)NumOfPerson);
 }
 
 @end
