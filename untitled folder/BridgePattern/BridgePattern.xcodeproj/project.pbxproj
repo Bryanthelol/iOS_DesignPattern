@@ -13,6 +13,17 @@
 		189BF1372115935400DAA963 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 189BF1362115935400DAA963 /* Assets.xcassets */; };
 		189BF13A2115935400DAA963 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 189BF1382115935400DAA963 /* LaunchScreen.storyboard */; };
 		189BF13D2115935400DAA963 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 189BF13C2115935400DAA963 /* main.m */; };
+		189BF1472115A4E300DAA963 /* ConsoleController.m in Sources */ = {isa = PBXBuildFile; fileRef = 189BF1462115A4E300DAA963 /* ConsoleController.m */; };
+		189BF14A2115A4F800DAA963 /* ConsoleEmulator.m in Sources */ = {isa = PBXBuildFile; fileRef = 189BF1492115A4F800DAA963 /* ConsoleEmulator.m */; };
+		189BF1522115ABED00DAA963 /* GameBoyEmulator.m in Sources */ = {isa = PBXBuildFile; fileRef = 189BF1512115ABED00DAA963 /* GameBoyEmulator.m */; };
+		189BF1552115AC5500DAA963 /* GameGearEmulator.m in Sources */ = {isa = PBXBuildFile; fileRef = 189BF1542115AC5500DAA963 /* GameGearEmulator.m */; };
+		189BF15B2115AF1F00DAA963 /* TouchConsoleController.m in Sources */ = {isa = PBXBuildFile; fileRef = 189BF15A2115AF1F00DAA963 /* TouchConsoleController.m */; };
+		189BF1742115B64200DAA963 /* CarBaseClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 189BF1732115B64200DAA963 /* CarBaseClass.m */; };
+		189BF1772115B68600DAA963 /* DrivingCarBaseClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 189BF1762115B68600DAA963 /* DrivingCarBaseClass.m */; };
+		189BF17A2115B6CE00DAA963 /* SportsCarClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 189BF1792115B6CE00DAA963 /* SportsCarClass.m */; };
+		189BF17D2115B6DF00DAA963 /* FlyCarClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 189BF17C2115B6DF00DAA963 /* FlyCarClass.m */; };
+		189BF1822115C00200DAA963 /* DrivingFlyCarClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 189BF1812115C00200DAA963 /* DrivingFlyCarClass.m */; };
+		189BF1852115C01500DAA963 /* DrivingSportsCarClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 189BF1842115C01500DAA963 /* DrivingSportsCarClass.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +37,29 @@
 		189BF1392115935400DAA963 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		189BF13B2115935400DAA963 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		189BF13C2115935400DAA963 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		189BF1452115A4E300DAA963 /* ConsoleController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ConsoleController.h; sourceTree = "<group>"; };
+		189BF1462115A4E300DAA963 /* ConsoleController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ConsoleController.m; sourceTree = "<group>"; };
+		189BF1482115A4F800DAA963 /* ConsoleEmulator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ConsoleEmulator.h; sourceTree = "<group>"; };
+		189BF1492115A4F800DAA963 /* ConsoleEmulator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ConsoleEmulator.m; sourceTree = "<group>"; };
+		189BF1502115ABED00DAA963 /* GameBoyEmulator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameBoyEmulator.h; sourceTree = "<group>"; };
+		189BF1512115ABED00DAA963 /* GameBoyEmulator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameBoyEmulator.m; sourceTree = "<group>"; };
+		189BF1532115AC5500DAA963 /* GameGearEmulator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameGearEmulator.h; sourceTree = "<group>"; };
+		189BF1542115AC5500DAA963 /* GameGearEmulator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameGearEmulator.m; sourceTree = "<group>"; };
+		189BF1582115AD7B00DAA963 /* ConsoleCommades.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ConsoleCommades.h; sourceTree = "<group>"; };
+		189BF1592115AF1F00DAA963 /* TouchConsoleController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TouchConsoleController.h; sourceTree = "<group>"; };
+		189BF15A2115AF1F00DAA963 /* TouchConsoleController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TouchConsoleController.m; sourceTree = "<group>"; };
+		189BF1722115B64200DAA963 /* CarBaseClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CarBaseClass.h; sourceTree = "<group>"; };
+		189BF1732115B64200DAA963 /* CarBaseClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CarBaseClass.m; sourceTree = "<group>"; };
+		189BF1752115B68600DAA963 /* DrivingCarBaseClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DrivingCarBaseClass.h; sourceTree = "<group>"; };
+		189BF1762115B68600DAA963 /* DrivingCarBaseClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DrivingCarBaseClass.m; sourceTree = "<group>"; };
+		189BF1782115B6CE00DAA963 /* SportsCarClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SportsCarClass.h; sourceTree = "<group>"; };
+		189BF1792115B6CE00DAA963 /* SportsCarClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SportsCarClass.m; sourceTree = "<group>"; };
+		189BF17B2115B6DF00DAA963 /* FlyCarClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlyCarClass.h; sourceTree = "<group>"; };
+		189BF17C2115B6DF00DAA963 /* FlyCarClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlyCarClass.m; sourceTree = "<group>"; };
+		189BF1802115C00200DAA963 /* DrivingFlyCarClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DrivingFlyCarClass.h; sourceTree = "<group>"; };
+		189BF1812115C00200DAA963 /* DrivingFlyCarClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DrivingFlyCarClass.m; sourceTree = "<group>"; };
+		189BF1832115C01500DAA963 /* DrivingSportsCarClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DrivingSportsCarClass.h; sourceTree = "<group>"; };
+		189BF1842115C01500DAA963 /* DrivingSportsCarClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DrivingSportsCarClass.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,17 +92,96 @@
 		189BF12C2115935200DAA963 /* BridgePattern */ = {
 			isa = PBXGroup;
 			children = (
-				189BF12D2115935200DAA963 /* AppDelegate.h */,
-				189BF12E2115935200DAA963 /* AppDelegate.m */,
+				189BF1442115943800DAA963 /* 自己的版本 */,
+				189BF1432115942C00DAA963 /* 书里的版本 */,
 				189BF1302115935200DAA963 /* ViewController.h */,
 				189BF1312115935200DAA963 /* ViewController.m */,
+				189BF1702115B46900DAA963 /* Supporting Files */,
+				189BF13B2115935400DAA963 /* Info.plist */,
+			);
+			path = BridgePattern;
+			sourceTree = "<group>";
+		};
+		189BF1432115942C00DAA963 /* 书里的版本 */ = {
+			isa = PBXGroup;
+			children = (
+				189BF14B2115AB5800DAA963 /* 仿真器 */,
+				189BF14C2115AB6B00DAA963 /* 模拟器 */,
+			);
+			path = "书里的版本";
+			sourceTree = "<group>";
+		};
+		189BF1442115943800DAA963 /* 自己的版本 */ = {
+			isa = PBXGroup;
+			children = (
+				189BF15F2115B12000DAA963 /* 抽象类 */,
+				189BF1602115B12B00DAA963 /* 实现类 */,
+			);
+			path = "自己的版本";
+			sourceTree = "<group>";
+		};
+		189BF14B2115AB5800DAA963 /* 仿真器 */ = {
+			isa = PBXGroup;
+			children = (
+				189BF1582115AD7B00DAA963 /* ConsoleCommades.h */,
+				189BF1452115A4E300DAA963 /* ConsoleController.h */,
+				189BF1462115A4E300DAA963 /* ConsoleController.m */,
+				189BF1592115AF1F00DAA963 /* TouchConsoleController.h */,
+				189BF15A2115AF1F00DAA963 /* TouchConsoleController.m */,
+			);
+			path = "仿真器";
+			sourceTree = "<group>";
+		};
+		189BF14C2115AB6B00DAA963 /* 模拟器 */ = {
+			isa = PBXGroup;
+			children = (
+				189BF1482115A4F800DAA963 /* ConsoleEmulator.h */,
+				189BF1492115A4F800DAA963 /* ConsoleEmulator.m */,
+				189BF1502115ABED00DAA963 /* GameBoyEmulator.h */,
+				189BF1512115ABED00DAA963 /* GameBoyEmulator.m */,
+				189BF1532115AC5500DAA963 /* GameGearEmulator.h */,
+				189BF1542115AC5500DAA963 /* GameGearEmulator.m */,
+			);
+			path = "模拟器";
+			sourceTree = "<group>";
+		};
+		189BF15F2115B12000DAA963 /* 抽象类 */ = {
+			isa = PBXGroup;
+			children = (
+				189BF1722115B64200DAA963 /* CarBaseClass.h */,
+				189BF1732115B64200DAA963 /* CarBaseClass.m */,
+				189BF1782115B6CE00DAA963 /* SportsCarClass.h */,
+				189BF1792115B6CE00DAA963 /* SportsCarClass.m */,
+				189BF17B2115B6DF00DAA963 /* FlyCarClass.h */,
+				189BF17C2115B6DF00DAA963 /* FlyCarClass.m */,
+			);
+			path = "抽象类";
+			sourceTree = "<group>";
+		};
+		189BF1602115B12B00DAA963 /* 实现类 */ = {
+			isa = PBXGroup;
+			children = (
+				189BF1752115B68600DAA963 /* DrivingCarBaseClass.h */,
+				189BF1762115B68600DAA963 /* DrivingCarBaseClass.m */,
+				189BF1802115C00200DAA963 /* DrivingFlyCarClass.h */,
+				189BF1812115C00200DAA963 /* DrivingFlyCarClass.m */,
+				189BF1832115C01500DAA963 /* DrivingSportsCarClass.h */,
+				189BF1842115C01500DAA963 /* DrivingSportsCarClass.m */,
+			);
+			path = "实现类";
+			sourceTree = "<group>";
+		};
+		189BF1702115B46900DAA963 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				189BF12D2115935200DAA963 /* AppDelegate.h */,
+				189BF12E2115935200DAA963 /* AppDelegate.m */,
 				189BF1332115935200DAA963 /* Main.storyboard */,
 				189BF1362115935400DAA963 /* Assets.xcassets */,
 				189BF1382115935400DAA963 /* LaunchScreen.storyboard */,
-				189BF13B2115935400DAA963 /* Info.plist */,
 				189BF13C2115935400DAA963 /* main.m */,
 			);
-			path = BridgePattern;
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,9 +254,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				189BF1772115B68600DAA963 /* DrivingCarBaseClass.m in Sources */,
+				189BF14A2115A4F800DAA963 /* ConsoleEmulator.m in Sources */,
+				189BF1742115B64200DAA963 /* CarBaseClass.m in Sources */,
+				189BF17D2115B6DF00DAA963 /* FlyCarClass.m in Sources */,
 				189BF1322115935200DAA963 /* ViewController.m in Sources */,
+				189BF1472115A4E300DAA963 /* ConsoleController.m in Sources */,
+				189BF1552115AC5500DAA963 /* GameGearEmulator.m in Sources */,
+				189BF1522115ABED00DAA963 /* GameBoyEmulator.m in Sources */,
+				189BF1822115C00200DAA963 /* DrivingFlyCarClass.m in Sources */,
+				189BF15B2115AF1F00DAA963 /* TouchConsoleController.m in Sources */,
 				189BF13D2115935400DAA963 /* main.m in Sources */,
 				189BF12F2115935200DAA963 /* AppDelegate.m in Sources */,
+				189BF1852115C01500DAA963 /* DrivingSportsCarClass.m in Sources */,
+				189BF17A2115B6CE00DAA963 /* SportsCarClass.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
